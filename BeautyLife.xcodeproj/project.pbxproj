@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFD56B9D23373152BF57ADCD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A44E98B8862D08CA528B8C /* libPods.a */; };
+		D017E5A01C9AA54000E80E5B /* LeftDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D017E59F1C9AA54000E80E5B /* LeftDrawerViewController.m */; };
+		D017E5A31C9AA55000E80E5B /* CenterDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D017E5A21C9AA55000E80E5B /* CenterDrawerViewController.m */; };
+		D0571B2E1C9952D30036DF65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0571B2D1C9952D30036DF65 /* main.m */; };
+		D0571B311C9952D30036DF65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0571B301C9952D30036DF65 /* AppDelegate.m */; };
+		D0571B391C9952D30036DF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0571B381C9952D30036DF65 /* Assets.xcassets */; };
+		D0571B3C1C9952D30036DF65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0571B3A1C9952D30036DF65 /* LaunchScreen.storyboard */; };
+		D0571B471C9952D30036DF65 /* BeautyLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0571B461C9952D30036DF65 /* BeautyLifeTests.m */; };
+		D0571B521C9952D30036DF65 /* BeautyLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0571B511C9952D30036DF65 /* BeautyLifeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0571B431C9952D30036DF65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0571B211C9952D30036DF65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0571B281C9952D30036DF65;
+			remoteInfo = BeautyLife;
+		};
+		D0571B4E1C9952D30036DF65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0571B211C9952D30036DF65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0571B281C9952D30036DF65;
+			remoteInfo = BeautyLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44A002CE27775363BB0B8CFE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B0A44E98B8862D08CA528B8C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D017E59D1C9AA43300E80E5B /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		D017E59E1C9AA54000E80E5B /* LeftDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftDrawerViewController.h; sourceTree = "<group>"; };
+		D017E59F1C9AA54000E80E5B /* LeftDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftDrawerViewController.m; sourceTree = "<group>"; };
+		D017E5A11C9AA55000E80E5B /* CenterDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterDrawerViewController.h; sourceTree = "<group>"; };
+		D017E5A21C9AA55000E80E5B /* CenterDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterDrawerViewController.m; sourceTree = "<group>"; };
+		D0571B291C9952D30036DF65 /* BeautyLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0571B2D1C9952D30036DF65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0571B2F1C9952D30036DF65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0571B301C9952D30036DF65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0571B381C9952D30036DF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0571B3B1C9952D30036DF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0571B3D1C9952D30036DF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0571B421C9952D30036DF65 /* BeautyLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautyLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0571B461C9952D30036DF65 /* BeautyLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautyLifeTests.m; sourceTree = "<group>"; };
+		D0571B481C9952D30036DF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0571B4D1C9952D30036DF65 /* BeautyLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautyLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0571B511C9952D30036DF65 /* BeautyLifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautyLifeUITests.m; sourceTree = "<group>"; };
+		D0571B531C9952D30036DF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA55C64876F0F19E8AC38C95 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0571B261C9952D30036DF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD56B9D23373152BF57ADCD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0571B3F1C9952D30036DF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0571B4A1C9952D30036DF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D017E5A41C9AA58000E80E5B /* Center */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Center;
+			sourceTree = "<group>";
+		};
+		D0571B201C9952D30036DF65 = {
+			isa = PBXGroup;
+			children = (
+				D0571B2B1C9952D30036DF65 /* BeautyLife */,
+				D0571B451C9952D30036DF65 /* BeautyLifeTests */,
+				D0571B501C9952D30036DF65 /* BeautyLifeUITests */,
+				D0571B2A1C9952D30036DF65 /* Products */,
+				FC8A00145AC8E6A56B887782 /* Pods */,
+				FF1A45051970B8EA59F4026D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0571B2A1C9952D30036DF65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0571B291C9952D30036DF65 /* BeautyLife.app */,
+				D0571B421C9952D30036DF65 /* BeautyLifeTests.xctest */,
+				D0571B4D1C9952D30036DF65 /* BeautyLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0571B2B1C9952D30036DF65 /* BeautyLife */ = {
+			isa = PBXGroup;
+			children = (
+				D0571B5F1C9955610036DF65 /* Bussiness */,
+				D0571B601C9955610036DF65 /* Controller */,
+				D0571B611C9955610036DF65 /* Model */,
+				D0571B621C9955610036DF65 /* Util */,
+				D0571B631C9955610036DF65 /* View */,
+				D0571B2F1C9952D30036DF65 /* AppDelegate.h */,
+				D0571B301C9952D30036DF65 /* AppDelegate.m */,
+				D0571B381C9952D30036DF65 /* Assets.xcassets */,
+				D0571B3A1C9952D30036DF65 /* LaunchScreen.storyboard */,
+				D0571B3D1C9952D30036DF65 /* Info.plist */,
+				D0571B2C1C9952D30036DF65 /* Supporting Files */,
+				D017E59D1C9AA43300E80E5B /* Constant.h */,
+			);
+			path = BeautyLife;
+			sourceTree = "<group>";
+		};
+		D0571B2C1C9952D30036DF65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0571B2D1C9952D30036DF65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0571B451C9952D30036DF65 /* BeautyLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0571B461C9952D30036DF65 /* BeautyLifeTests.m */,
+				D0571B481C9952D30036DF65 /* Info.plist */,
+			);
+			path = BeautyLifeTests;
+			sourceTree = "<group>";
+		};
+		D0571B501C9952D30036DF65 /* BeautyLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0571B511C9952D30036DF65 /* BeautyLifeUITests.m */,
+				D0571B531C9952D30036DF65 /* Info.plist */,
+			);
+			path = BeautyLifeUITests;
+			sourceTree = "<group>";
+		};
+		D0571B5F1C9955610036DF65 /* Bussiness */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bussiness;
+			sourceTree = "<group>";
+		};
+		D0571B601C9955610036DF65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D017E5A41C9AA58000E80E5B /* Center */,
+				D017E59E1C9AA54000E80E5B /* LeftDrawerViewController.h */,
+				D017E59F1C9AA54000E80E5B /* LeftDrawerViewController.m */,
+				D017E5A11C9AA55000E80E5B /* CenterDrawerViewController.h */,
+				D017E5A21C9AA55000E80E5B /* CenterDrawerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D0571B611C9955610036DF65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0571B621C9955610036DF65 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D0571B631C9955610036DF65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC8A00145AC8E6A56B887782 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44A002CE27775363BB0B8CFE /* Pods.debug.xcconfig */,
+				DA55C64876F0F19E8AC38C95 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF1A45051970B8EA59F4026D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0A44E98B8862D08CA528B8C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0571B281C9952D30036DF65 /* BeautyLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0571B561C9952D30036DF65 /* Build configuration list for PBXNativeTarget "BeautyLife" */;
+			buildPhases = (
+				77A886259CC96FA8DC9F96E6 /* Check Pods Manifest.lock */,
+				D0571B251C9952D30036DF65 /* Sources */,
+				D0571B261C9952D30036DF65 /* Frameworks */,
+				D0571B271C9952D30036DF65 /* Resources */,
+				4B9D962EB1B27EA75461B911 /* Embed Pods Frameworks */,
+				B7A9940FB23BA35785B3B051 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeautyLife;
+			productName = BeautyLife;
+			productReference = D0571B291C9952D30036DF65 /* BeautyLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0571B411C9952D30036DF65 /* BeautyLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0571B591C9952D30036DF65 /* Build configuration list for PBXNativeTarget "BeautyLifeTests" */;
+			buildPhases = (
+				D0571B3E1C9952D30036DF65 /* Sources */,
+				D0571B3F1C9952D30036DF65 /* Frameworks */,
+				D0571B401C9952D30036DF65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0571B441C9952D30036DF65 /* PBXTargetDependency */,
+			);
+			name = BeautyLifeTests;
+			productName = BeautyLifeTests;
+			productReference = D0571B421C9952D30036DF65 /* BeautyLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0571B4C1C9952D30036DF65 /* BeautyLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0571B5C1C9952D30036DF65 /* Build configuration list for PBXNativeTarget "BeautyLifeUITests" */;
+			buildPhases = (
+				D0571B491C9952D30036DF65 /* Sources */,
+				D0571B4A1C9952D30036DF65 /* Frameworks */,
+				D0571B4B1C9952D30036DF65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0571B4F1C9952D30036DF65 /* PBXTargetDependency */,
+			);
+			name = BeautyLifeUITests;
+			productName = BeautyLifeUITests;
+			productReference = D0571B4D1C9952D30036DF65 /* BeautyLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0571B211C9952D30036DF65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.littlefish;
+				TargetAttributes = {
+					D0571B281C9952D30036DF65 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D0571B411C9952D30036DF65 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D0571B281C9952D30036DF65;
+					};
+					D0571B4C1C9952D30036DF65 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D0571B281C9952D30036DF65;
+					};
+				};
+			};
+			buildConfigurationList = D0571B241C9952D30036DF65 /* Build configuration list for PBXProject "BeautyLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0571B201C9952D30036DF65;
+			productRefGroup = D0571B2A1C9952D30036DF65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0571B281C9952D30036DF65 /* BeautyLife */,
+				D0571B411C9952D30036DF65 /* BeautyLifeTests */,
+				D0571B4C1C9952D30036DF65 /* BeautyLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0571B271C9952D30036DF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0571B3C1C9952D30036DF65 /* LaunchScreen.storyboard in Resources */,
+				D0571B391C9952D30036DF65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0571B401C9952D30036DF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0571B4B1C9952D30036DF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B9D962EB1B27EA75461B911 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77A886259CC96FA8DC9F96E6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7A9940FB23BA35785B3B051 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0571B251C9952D30036DF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D017E5A31C9AA55000E80E5B /* CenterDrawerViewController.m in Sources */,
+				D0571B311C9952D30036DF65 /* AppDelegate.m in Sources */,
+				D017E5A01C9AA54000E80E5B /* LeftDrawerViewController.m in Sources */,
+				D0571B2E1C9952D30036DF65 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0571B3E1C9952D30036DF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0571B471C9952D30036DF65 /* BeautyLifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0571B491C9952D30036DF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0571B521C9952D30036DF65 /* BeautyLifeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0571B441C9952D30036DF65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0571B281C9952D30036DF65 /* BeautyLife */;
+			targetProxy = D0571B431C9952D30036DF65 /* PBXContainerItemProxy */;
+		};
+		D0571B4F1C9952D30036DF65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0571B281C9952D30036DF65 /* BeautyLife */;
+			targetProxy = D0571B4E1C9952D30036DF65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0571B3A1C9952D30036DF65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0571B3B1C9952D30036DF65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0571B541C9952D30036DF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0571B551C9952D30036DF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0571B571C9952D30036DF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A002CE27775363BB0B8CFE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeautyLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.littlefish.BeautyLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0571B581C9952D30036DF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA55C64876F0F19E8AC38C95 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeautyLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.littlefish.BeautyLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0571B5A1C9952D30036DF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeautyLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.littlefish.BeautyLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautyLife.app/BeautyLife";
+			};
+			name = Debug;
+		};
+		D0571B5B1C9952D30036DF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeautyLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.littlefish.BeautyLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautyLife.app/BeautyLife";
+			};
+			name = Release;
+		};
+		D0571B5D1C9952D30036DF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeautyLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.littlefish.BeautyLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeautyLife;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D0571B5E1C9952D30036DF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeautyLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.littlefish.BeautyLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeautyLife;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0571B241C9952D30036DF65 /* Build configuration list for PBXProject "BeautyLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0571B541C9952D30036DF65 /* Debug */,
+				D0571B551C9952D30036DF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0571B561C9952D30036DF65 /* Build configuration list for PBXNativeTarget "BeautyLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0571B571C9952D30036DF65 /* Debug */,
+				D0571B581C9952D30036DF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0571B591C9952D30036DF65 /* Build configuration list for PBXNativeTarget "BeautyLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0571B5A1C9952D30036DF65 /* Debug */,
+				D0571B5B1C9952D30036DF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0571B5C1C9952D30036DF65 /* Build configuration list for PBXNativeTarget "BeautyLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0571B5D1C9952D30036DF65 /* Debug */,
+				D0571B5E1C9952D30036DF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0571B211C9952D30036DF65 /* Project object */;
+}
